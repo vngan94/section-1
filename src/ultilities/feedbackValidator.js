@@ -5,7 +5,7 @@ const validateFeedback = (name, email, message) => {
   if (!name || !email || !message) {
     return {
       isValid: false,
-      error: "Missing required fields: name, email, message",
+      error: "Missing required fields",
     };
   }
 
