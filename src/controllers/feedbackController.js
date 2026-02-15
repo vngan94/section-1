@@ -8,6 +8,7 @@ exports.createFeedback = (req, res) => {
     const validation = validateFeedback(name, email, message);
     if (!validation.isValid) {
       return res.status(400).json({
+        success: false,
         error: validation.error,
       });
     }

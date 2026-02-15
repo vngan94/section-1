@@ -1,4 +1,4 @@
-const emailRegex = '/^[^\s@]+@[^\s@]+\.[^\s@]+$/';
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const isValidEmail = (email) => emailRegex.test(email);
 
 const validateFeedback = (name, email, message) => {
