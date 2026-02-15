@@ -9,7 +9,6 @@ const server = app.listen(PORT, () => {
   console.log("  GET  /api/status");
   console.log("  POST /api/feedback");
   console.log("  GET  /api/feedback");
-  console.log("  GET  /api/feedback/:id");
 });
 
 module.exports = server;
